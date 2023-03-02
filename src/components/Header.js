@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center bg-orange-200 h-20 opacity-60 shadow-lg p-3">
+    <header className="flex justify-between items-center bg-orange-200 h-20 w-full opacity-60 shadow-lg p-3 sticky">
       <h1>Ethan Ayaay</h1>
       <a> About Me </a>
       <a> Skills </a>
