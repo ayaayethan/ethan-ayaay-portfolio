@@ -3,14 +3,16 @@ import { BsDownload } from "react-icons/bs";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center bg-orange-700
-    h-20 w-full shadow-lg p-3 sticky text-white">
+    <header className="flex justify-between items-center bg-orange-800
+    h-20 w-full shadow-lg sticky text-white">
       <h1>Ethan Ayaay</h1>
-      <a> About Me </a>
-      <a> Skills </a>
-      <a> Projects </a>
-      <a> Contact </a>
-      <button className="bg-orange-500 w-52 h-[95%] rounded-full
+      <nav className="flex justify-evenly w-full h-full">
+        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> About Me </a>
+        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Skills </a>
+        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Projects </a>
+        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Contact </a>
+      </nav>
+      <button className="bg-orange-500 w-52 h-[75%] ml-3 rounded-full
       hover:bg-orange-400 text-white font-bold flex
       items-center justify-evenly"> Resume <BsDownload size={25} /> </button>
     </header>
