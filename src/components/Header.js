@@ -6,11 +6,11 @@ export default function Header() {
     <header className="flex justify-between items-center bg-orange-800
     h-20 w-full shadow-lg sticky text-white">
       <h1>Ethan Ayaay</h1>
-      <nav className="flex justify-evenly w-full h-full">
-        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> About Me </a>
-        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Skills </a>
-        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Projects </a>
-        <a className="hover:cursor-pointer hover:bg-orange-300 h-full w-full text-center"> Contact </a>
+      <nav className="flex justify-evenly w-[40%] h-full">
+        <a className="hover:cursor-pointer hover:bg-orange-900 hover:underline h-full w-full flex items-center justify-center"> About Me </a>
+        <a className="hover:cursor-pointer hover:bg-orange-900 hover:underline h-full w-full flex items-center justify-center"> Skills </a>
+        <a className="hover:cursor-pointer hover:bg-orange-900 hover:underline h-full w-full flex items-center justify-center"> Projects </a>
+        <a className="hover:cursor-pointer hover:bg-orange-900 hover:underline h-full w-full flex items-center justify-center"> Contact </a>
       </nav>
       <button className="bg-orange-500 w-52 h-[75%] ml-3 rounded-full
       hover:bg-orange-400 text-white font-bold flex
